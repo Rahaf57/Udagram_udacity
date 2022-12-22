@@ -56,19 +56,26 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Deploy App
-          # TODO: Install, build, deploy in both apps
+          name: Deploy Frontend
           command: |
-           npm run deploy
+           npm frontend:deploy
+          # TODO: Install, build, deploy in both apps
+           name: Deploy Backend
+          command: |
+           api:deploy:deploy
             
 workflows:
   udagram:
     jobs:
       - build
       - hold:
+          filters:
+            branches:
+              only:
+                - master
+          type: approval
           requires:
             - build
       - deploy:
           requires:
             - hold
-
