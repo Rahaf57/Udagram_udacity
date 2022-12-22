@@ -44,8 +44,6 @@ jobs:
           name: API Build
           command: |
             npm run api:build
-
-
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -57,41 +55,37 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
-
       - run:
-          name: Deploy frontend install
+          name: Deploy Front-end Install
           # TODO: Install, build, deploy in both apps
           command: |
-            npm run frontend:install
-
+           npm run frontend:install
       - run:
-          name: Deploy frontend build
+          name: Deploy Front-end build
           # TODO: Install, build, deploy in both apps
           command: |
-            npm run frontend:build
-
-      - run:   
-          name: Deploy frontend deploy
-          command: |
-            npm run frontend:deploy
-
+           npm run frontend:build
       - run:
-          name: Deploy Backend install
+          name: Deploy Front-end deploy
           # TODO: Install, build, deploy in both apps
           command: |
-            npm run api:install
-              
+           npm run frontend:deploy
       - run:
-          name: Deploy frontend build
+          name: Deploy Back-end Install
+          # TODO: Install, build, deploy in both apps
           command: |
-            npm run api:build
-
+           npm run api:install
       - run:
-        name: Deploy frontend deploy
-        command: |
-            npm run api:deploy
-           
-           
+          name: Deploy Back-end build
+          # TODO: Install, build, deploy in both apps
+          command: |
+           npm run api:build
+      - run:
+          name: Deploy Back-end deploy
+          # TODO: Install, build, deploy in both apps
+          command: |
+           npm run api:deploy
+
             
 workflows:
   udagram:
@@ -101,7 +95,7 @@ workflows:
           filters:
             branches:
               only:
-                - main
+                - master
           type: approval
           requires:
             - build
