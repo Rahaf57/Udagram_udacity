@@ -66,7 +66,7 @@ jobs:
           command: |
            npm run frontend:build
       - run:
-          name: Deploy Front-end deploy
+          name: Deploy Front-end
           # TODO: Install, build, deploy in both apps
           command: |
            npm run frontend:deploy
