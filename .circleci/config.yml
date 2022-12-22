@@ -45,6 +45,7 @@ jobs:
           command: |
             npm run api:build
   # deploy step will run only after manual approval
+
   deploy:
     docker:
       - image: "cimg/base:stable"
@@ -56,17 +57,15 @@ jobs:
       - aws-cli/setup
       - checkout
 
-      deploy:
-      
       - run:
           name: Deploy Frontend
           command: |
-           npm frontend:deploy
+           npm run frontend:deploy
           # TODO: Install, build, deploy in both apps
       - run:
            name: Deploy Backend
           command: |
-           api:deploy:deploy
+          npm run api:deploy
             
 workflows:
   udagram:
