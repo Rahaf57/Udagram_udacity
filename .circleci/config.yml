@@ -52,8 +52,8 @@ jobs:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
     steps:
-    - node/install:
-        node-version: '14.15'  
+      - node/install: 
+          node-version: '14.15'  
       - eb/setup
       - aws-cli/setup
       - checkout
@@ -69,13 +69,12 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             npm run frontend:build
-
-       - run:   
+      - run:   
           name: Deploy frontend deploy
           command: |
             npm run frontend:deploy
 
-       - run:
+      - run:
           name: Deploy Backend install
           # TODO: Install, build, deploy in both apps
           command: |
