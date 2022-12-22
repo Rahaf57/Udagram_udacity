@@ -45,7 +45,7 @@ jobs:
           command: |
             npm run api:build
 
-            
+
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -71,7 +71,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
           type: approval
           requires:
             - build
