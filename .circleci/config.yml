@@ -52,9 +52,8 @@ jobs:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
     steps:
-      - node/install:
-          node-version: '14.15' 
-      - aws-cli/setup
+      - node/install
+      - node/install-npm
       - eb/setup
       - aws-cli/setup
       - checkout
