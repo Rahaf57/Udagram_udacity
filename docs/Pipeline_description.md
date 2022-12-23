@@ -3,8 +3,8 @@
 
 > Udagram Pipeline
 
+![ci diagram](https://user-images.githubusercontent.com/86688588/209351189-18b0f03c-cbef-4c73-b063-4638a704e1be.PNG)
 
-![Ci 2 daigram](https://user-images.githubusercontent.com/86688588/209349416-3e4247db-a279-4d6d-a6b0-188465ea4e28.PNG)
 
 
 ***
