@@ -57,32 +57,32 @@ jobs:
       - checkout
       - run:
           name: Deploy Front-end Install
-          # TODO: Install, build, deploy in both apps
+          # TODO: Install Front-end app
           command: |
            npm run frontend:install
       - run:
           name: Deploy Front-end build
-          # TODO: Install, build, deploy in both apps
+          # TODO: build Front-end app
           command: |
            npm run frontend:build
       - run:
           name: Deploy Front-end
-          # TODO: Install, build, deploy in both apps
+          # TODO: deploy Front-end app
           command: |
            npm run frontend:deploy
       - run:
           name: Deploy Back-end Install
-          # TODO: Install, build, deploy in both apps
+          # TODO: Install Back-end app
           command: |
            npm run api:install
       - run:
           name: Deploy Back-end build
-          # TODO: Install, build, deploy in both apps
+          # TODO: build Back-end app
           command: |
            npm run api:build
       - run:
           name: Deploy Back-end
-          # TODO: Install, build, deploy in both apps
+          # TODO: deploy Back-end app
           command: |
            npm run api:deploy
 
