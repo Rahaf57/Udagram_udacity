@@ -12,9 +12,10 @@
 
  > This application server used the AWS RDS Postgres database For storing and retrieving data.
  >  Database Endpoint: database-1.cny0utjd06ru.us-east-1.rds.amazonaws.com
+ 
 
 * Elastic Beanstalk
-helps you deploy and manage web applications .
+> helps you deploy and manage web applications .
 
 
 * S3 Bucket
