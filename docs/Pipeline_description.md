@@ -1,9 +1,16 @@
 # Pipeline 
 
+<<<<<<< HEAD
 Udagram Pipeline
 
 ![CI -1 Digram](https://user-images.githubusercontent.com/86688588/209335124-0782a3f2-e4f4-4680-9b75-bda063bc8184.PNG)
 
+=======
+![CI -1 Digram](https://user-images.githubusercontent.com/86688588/209335124-0782a3f2-e4f4-4680-9b75-bda063bc8184.PNG)
+
+Pipeline Diagram 
+
+>>>>>>> deb17f4fce28d0d1136af0c16e7bec6db283de00
 ***
 ## Overview
 
