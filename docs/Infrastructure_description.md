@@ -21,4 +21,4 @@
 * S3 Bucket
 >  A bucket is a container for objects stored in Amazon S3.
 AWS S3 Bucket is used to deploy the frontend application.
-Bucket URL : (http://buckets3376.s3-website-us-east-1.amazonaws.com/home)
+Bucket URL : http://buckets3376.s3-website-us-east-1.amazonaws.com/home
