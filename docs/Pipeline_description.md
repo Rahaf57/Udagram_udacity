@@ -1,4 +1,7 @@
 # Pipeline 
+
+![CI digram](https://user-images.githubusercontent.com/86688588/209334968-13281f9b-9556-4e9c-937f-6678c79cddfb.PNG)
+
 ***
 ## Overview
 
