@@ -1,6 +1,8 @@
 # Pipeline 
 
-![CI digram](https://user-images.githubusercontent.com/86688588/209334968-13281f9b-9556-4e9c-937f-6678c79cddfb.PNG)
+![CI -1 Digram](https://user-images.githubusercontent.com/86688588/209335124-0782a3f2-e4f4-4680-9b75-bda063bc8184.PNG)
+
+Pipeline Diagram 
 
 ***
 ## Overview
