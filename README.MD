@@ -25,7 +25,7 @@ Provision the necessary AWS services needed for running the application:
 - [Express](https://expressjs.com/) - Javascript API Framework
 
 > You can visit the site: [Udagram Website](http://buckets3376.s3-website-us-east-1.amazonaws.com/home)
-  http://buckets3376.s3-website-us-east-1.amazonaws.com/home
+   : http://buckets3376.s3-website-us-east-1.amazonaws.com/home
 ![S3](https://user-images.githubusercontent.com/86688588/209335873-40b65e13-6094-4d0d-9629-f68cd06e3918.PNG)
 
   
