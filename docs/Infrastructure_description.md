@@ -7,11 +7,11 @@
 # AWS
 
 * RDS Postgres
-You can deploy scalable PostgreSQL deployments in minutes .
-[AWS RDS](https://console.aws.amazon.com/rds/home?region=us-east-1)
+> You can deploy scalable PostgreSQL deployments in minutes .
+> [AWS RDS](https://console.aws.amazon.com/rds/home?region=us-east-1)
 
-This application server used the AWS RDS Postgres database For storing and retrieving data.
-Database Endpoint: database-1.cny0utjd06ru.us-east-1.rds.amazonaws.com
+ > This application server used the AWS RDS Postgres database For storing and retrieving data.
+ >  Database Endpoint: database-1.cny0utjd06ru.us-east-1.rds.amazonaws.com
 
 * Elastic Beanstalk
 helps you deploy and manage web applications .
