@@ -1,6 +1,6 @@
 
+![INF-Digram1](https://user-images.githubusercontent.com/86688588/209334540-4c17a87f-d559-4dca-a853-d9ec957ae153.PNG)
 
-![inf-digram2](https://user-images.githubusercontent.com/86688588/209334424-71591869-22df-4a31-a0dc-4f92d2958221.PNG)
 
 
 
